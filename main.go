@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"io/ioutil"
 	"log"
 	"os"
 	"os/signal"
@@ -14,7 +13,7 @@ func main() {
 
 func startServer() {
 	gin.SetMode(gin.ReleaseMode)
-	gin.DefaultWriter = ioutil.Discard
+	//gin.DefaultWriter = ioutil.Discard
 
 	r := gin.Default()
 

@@ -40,6 +40,7 @@ const assetsCDN = {
 // vue.config.js
 const vueConfig = {
   outputDir: "../client",
+  publicPath: "/max2d/",
   configureWebpack: {
     // webpack plugins
     plugins: [
