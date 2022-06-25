@@ -39,6 +39,7 @@ const assetsCDN = {
 
 // vue.config.js
 const vueConfig = {
+  outputDir: "../client",
   configureWebpack: {
     // webpack plugins
     plugins: [
