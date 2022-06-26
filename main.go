@@ -12,7 +12,7 @@ func main() {
 }
 
 func startServer() {
-	gin.SetMode(gin.ReleaseMode)
+	//gin.SetMode(gin.DebugMode)
 	//gin.DefaultWriter = ioutil.Discard
 
 	r := gin.Default()
